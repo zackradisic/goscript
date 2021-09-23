@@ -19,7 +19,7 @@ pub extern "C" fn run_go(path_ptr: *const c_char) -> usize {
         base_path: Some("/std".to_string()),
         trace_parser: false,
         trace_checker: false,
-        trace_vm: false,
+        trace_vm: true,
     };
 
     let engine = Engine::new(cfg);
