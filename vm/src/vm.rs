@@ -912,7 +912,7 @@ impl<'a> Fiber<'a> {
                         self.frames.pop();
                         frame_height -= 1;
                         if self.frames.is_empty() {
-                            dbg!(total_inst);
+                            // dbg!(total_inst);
                             /* dbg!
                             let mut s = stats
                                 .iter()
